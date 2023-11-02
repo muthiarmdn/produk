@@ -1,8 +1,8 @@
 package TokoABC;
 
 public class ProdukTidakHabisPakai extends Produk{
-    private String [] merekPrinter;
-    private int [] stokPrinter;
+    protected String [] merekPrinter;
+    protected int [] stokPrinter;
     
     ProdukTidakHabisPakai(String namaProduk, String kodeProduk, String [] merekPrinter, int [] stokPrinter){
         super(namaProduk, kodeProduk);
