@@ -1,8 +1,8 @@
 package TokoABC;
 
 public class ProdukHabisPakai extends Produk{
-    private String [] merekKertas;
-    private int [] jumlahKertas;
+    protected String [] merekKertas;
+    protected int [] jumlahKertas;
     
     ProdukHabisPakai(String namaProduk, String kodeProduk, String [] merekKertas, int [] jumlahKertas){
         super(namaProduk, kodeProduk);
